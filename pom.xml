@@ -112,6 +112,7 @@
         <module>presto-ml</module>
         <module>presto-mongodb</module>
         <module>presto-mysql</module>
+        <module>presto-omniscidb</module>
         <module>presto-oracle</module>
         <module>presto-orc</module>
         <module>presto-parquet</module>
@@ -986,6 +987,12 @@
                 <groupId>com.microsoft.sqlserver</groupId>
                 <artifactId>mssql-jdbc</artifactId>
                 <version>7.0.0.jre8</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.omnisci</groupId>
+                <artifactId>omnisci-jdbc</artifactId>
+                <version>5.4.0</version>
             </dependency>
 
             <dependency>
